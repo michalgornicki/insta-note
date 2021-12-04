@@ -1,0 +1,11 @@
+.button-container{
+    position: relative;x
+    display: flex;
+    margin: auto;
+}
+
+.button{
+    background-color: rgb(108, 189, 255);
+    height: 10vmin;
+    width: 10vmin;
+}

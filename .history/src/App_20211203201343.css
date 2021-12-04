@@ -1,0 +1,10 @@
+.button-container{
+    display: flex;
+    flex
+}
+
+.button{
+    background-color: rgb(108, 189, 255);
+    height: 10vmin;
+    width: 10vmin;
+}

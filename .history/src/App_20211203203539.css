@@ -1,0 +1,26 @@
+.button-container{
+    display: flex;
+    margin: auto;
+    width: min-content;
+}
+
+.button{
+    background-color: rgb(108, 189, 255);
+    height: 15vmin;
+    width: 15vmin;
+    margin: 2vmin;
+}
+
+.input{
+    display: block;
+    margin: auto;
+}
+
+.list{
+    color: black;
+}
+
+.list{
+    color: black;
+    padding: 1vmin;
+}

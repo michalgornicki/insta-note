@@ -1,0 +1,42 @@
+.button-container{
+    display: flex;
+    margin: auto;
+    width: min-content;
+}
+
+.button{
+    background-color: rgb(108, 189, 255);
+    height: 15vmin;
+    width: 15vmin;
+    margin: 2vmin;
+}
+
+.input{
+    display: block;
+    margin: auto;
+}
+
+.list{
+    color: black;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 50%;
+}
+
+.list-item{
+    color: black;
+    padding: 2vmin;
+    padding-bottom: 2vmin;
+    margin: 1vmin;
+    background-color: rgb(255, 253, 159);
+    max-width: fit-content;
+    transition: 0.5s;
+    cursor: pointer;
+    outline: solid 5px rgb(255, 255, 255);
+}
+
+.list-item:hover{
+    outline: solid 5px rgb(255, 0, 0);
+}

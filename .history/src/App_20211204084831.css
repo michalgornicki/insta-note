@@ -1,0 +1,53 @@
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.button-container{
+    display: flex;
+    margin: auto;
+    width: min-content;
+}
+
+.button{
+    display: flex;
+    background-color: rgb(108, 189, 255);
+    height: 15vmin;
+    width: 15vmin;
+    margin: 2vmin;
+    font-size: 6vmin;
+    text-align: center;
+    color: white;
+}
+
+.green{
+    background-color: rgb(43, 223, 43);
+}
+
+.input{
+    display: block;
+    margin: auto;
+}
+
+.list{
+    color: black;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 50%;
+}
+
+.list-item{
+    color: black;
+    padding: 2vmin;
+    padding-bottom: 2vmin;
+    margin: 1vmin;
+    background-color: rgb(255, 253, 159);
+    width: fit-content;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.list-item:hover{
+    background-color: rgb(255, 159, 159);
+}
