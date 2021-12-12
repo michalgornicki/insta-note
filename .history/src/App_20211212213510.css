@@ -1,0 +1,70 @@
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.button-container{
+    display: flex;
+    margin: auto;
+    width: min-content;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(108, 189, 255);
+    height: 15vmin;
+    width: 15vmin;
+    margin: 2vmin;
+    font-size: 5vmin;
+    color: white;
+    cursor: pointer;
+}
+
+.green{
+    background-color: rgb(43, 223, 43);
+}
+
+.red{
+    background-color: rgb(223, 43, 43);
+}
+
+.input{
+    display: block;
+    margin: auto;
+}
+
+.list{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 5vmin;
+    width: 50%;
+    box-shadow: 0px 0px 10px rgb(121, 121, 121);
+    border-radius: 2vmin;
+}
+
+.list-item{
+    display: flex;
+    vertical-align: ;
+    color: black;
+    padding: 2vmin;
+    padding-bottom: 2vmin;
+    margin: 1vmin;
+    margin-left: 5vmin;
+    width: fit-content;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.list-item:hover{
+    background-color: rgb(255, 159, 159);
+}
+
+.delete{
+    width: 2vmin;
+    height: 100%;
+}

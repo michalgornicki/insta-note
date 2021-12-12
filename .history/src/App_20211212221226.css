@@ -1,0 +1,109 @@
+body{
+    font-family: monospace;
+}
+
+.button-container{
+    display: flex;
+    margin: auto;
+    width: min-content;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(108, 189, 255);
+    height: 100%;
+    width: 15vmin;
+    margin-left: 2vmin;
+    font-size: 4vmin;
+    color: white;
+    cursor: pointer;
+    user-select: none;
+    border-radius: 2vmin;
+}
+
+.green{
+    background-color: rgb(43, 223, 43);
+}
+
+.red{
+    background-color: rgb(255, 0, 0);
+}
+
+
+
+.input-wrapper{
+    display: flex;
+    margin: auto;
+    width: fit-content;
+    height: 10vmin;
+    margin-top: 10vmin;
+}
+
+.input{
+    display: block;
+    padding: 1vmin;
+    border-radius: 2vmin;
+    border: 2px solid rgb(235, 235, 235);
+    font-family: monospace;
+    font-size: 4vmin;
+}
+
+.input:focus{
+    outline: 0px;
+}
+
+.list{
+    color: black;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 5vmin;
+    width: 40%;
+    box-shadow: 0px 0px 10px rgb(121, 121, 121);
+    border-radius: 2vmin;
+    transition: 1s;
+    animation: 1s;
+}
+
+.list-item{
+    font-size: 3vmin;
+    display: flex;
+    align-items: center;
+    color: black;
+    margin-left: 5vmin;
+    transition: 0.5s;
+    cursor: pointer;
+    transition: 1s;
+    animation: 1s;
+}
+
+.delete{
+    position: relative;
+    width: 2vmin;
+    height: 2vmin;
+    margin: 1vmin;
+    padding: 1vmin;
+    background-color: rgb(255, 255, 255);
+    border-radius: 100%;
+}
+
+.delete:hover{
+    background-color: rgb(223, 223, 223);
+}
+
+@media only screen and (max-device-width: 800px) {
+    
+    .list{
+        width: 80%;
+    }
+
+    .list-item{
+        margin: 2vmin;
+        font-size: 6vmin;
+    }
+}
